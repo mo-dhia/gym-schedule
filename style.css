@@ -49,3 +49,11 @@ body {
     width: 25vw;
     text-align: center;
 }
+
+#settingIcon {
+    width: 30px;
+    opacity: 20%;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}

@@ -95,3 +95,25 @@ function arrowsOnclick() {
 }
 
 arrowsOnclick()
+/////////////////////////////Schedules///////////////////////////
+
+//////////////////////////////SETTINGS//////////////////////////////
+
+$("#settingIcon").hover(function () {
+      $("#settingIcon").css({ opacity: '100%' })
+      $("#settingIcon").animate({
+            width: "45px"
+      }, 250);
+}, function () {
+      $("#settingIcon").css({ width: "30px" })
+      $("#settingIcon").animate({
+            opacity: "20%"
+      }, 250);
+});
+
+$("#settingIcon").click(function () {
+      $("#schedule").fadeOut()
+      $("#title").animate({
+            top: "22%"
+      },250)
+})
